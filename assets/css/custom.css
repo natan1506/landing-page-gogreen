@@ -1,0 +1,524 @@
+@font-face {
+    font-family: "gill-sans";
+    src: url("../fonts/Gill-Sans.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "gill-sans";
+    src: url("../fonts/Gill-Sans-Bold.otf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Quicksand";
+    src: url("../fonts/Quicksand.ttf") format("truetype");
+}
+
+body{
+    font-family:'gill-sans', serif !important;
+}
+
+a{
+    margin: 0;
+    padding: 0;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+.nav-link{
+    color: rgba(171, 206, 67) !important;
+}
+
+.navbar-dark .navbar-text {
+    color: rgba(171, 206, 67) !important;
+}
+
+.green-dark{
+    color: rgba(0, 120, 76);
+}
+.orange-dark{
+    color: rgba(226, 180, 44);
+}
+
+.green-light{
+    color: rgba(171,206,67);
+}
+
+.bg-green-dark{
+    background-color: rgba(0, 120, 76);
+}
+.bg-orange-dark{
+    background-color: rgba(226, 180, 44);
+}
+
+.bg-yellow{
+    background-color: rgba(255, 216, 91);
+}
+
+.bg-green-light{
+    background-color: rgba(171,206,67);
+}
+
+.btn-green-dark{
+    background-color: rgba(0, 120, 76);
+    color: #FFF;
+    width: 100%;
+}
+
+.border-green-dark{
+    border: 1px solid rgba(0, 120, 76);
+}
+
+.btn-green-dark:hover{
+    background-color: rgba(255, 216, 91);
+    color:  rgba(0, 120, 76);
+    width: 100%;
+}
+
+#NavbarLinks .nav-link:hover{
+    background-color: rgba(171,206,67);
+    color: rgba(0, 120, 76) !important;
+    transition: all .2s;
+}
+
+#consequences .container .row:first-child{
+    font-family: 'Quicksand' !important;
+    font-weight: bold;
+}
+
+#consequences .container .row:last-child{
+    font-family: 'gill-sans' !important;
+    font-weight: bold;
+}
+
+#calculator div p:first-child{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#calculator div p:last-child{
+    font-size: 1.2rem;
+}
+
+.calculator-background input::placeholder,
+#follow input::placeholder  {
+    top: 10px;
+    color: rgba(0, 120, 76, 0.5);
+    text-align: center;
+    vertical-align: middle;
+}
+
+.item-wrapper .circle {
+    border: none;
+    border-radius: 50%;
+    font-size: 14px;
+    vertical-align: top;
+}
+
+.item-wrapper .item-column {
+    display: inline-block;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.results-item .circle .result-item {
+    -webkit-transform: translate(-50%,-50%);
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+.result-item p {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.results-item .result-item .result-title {
+    color: #0c0e09;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.results-item .result-item .result-amount {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.results-item .result-item .result-info {
+    font-size: 11px !important;
+    line-height: 1;
+    margin: auto;
+    max-width: calc(100% - 20px);
+}
+
+.sprite-2 {
+    background-image: url('/assets/img/spritesheet.png');
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite {
+    background-image: url('/assets/img/spritesheet.png');
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-2-elipse-1 {
+    background-position: -5px -5px;
+}
+.sprite-2-elipse-2 {
+    background-position: -130px -5px;
+}
+.sprite-2-elipse-3 {
+    background-position: -255px -5px;
+}
+.sprite-2-elipse-4 {
+    background-position: -5px -130px;
+}
+.sprite-2-elipse-5 {
+    background-position: -130px -130px;
+}
+.sprite-2-elipse-6 {
+    background-position: -255px -130px;
+}
+
+.sprite-moeda-1 {
+    background-position: -5px -255px;
+}
+.sprite-moeda-2 {
+    background-position: -100px -255px;
+}
+.sprite-moeda-3 {
+    background-position: -195px -255px;
+}
+.sprite-moeda-4 {
+    background-position: -290px -255px;
+}
+.sprite-moeda-5 {
+    background-position: -380px -5px;
+}
+.sprite-moeda-6 {
+    background-position: -380px -100px;
+}
+
+.item-wrapper .circle.circle-115 {
+    height: 115px;
+    position: relative;
+    width: 115px;
+}
+
+.item-wrapper .circle.circle-85 {
+    border-width: 6px;
+    height: 85px;
+    margin: 0 auto 15px;
+    width: 85px;
+}
+
+.img-catalogo a img{
+    cursor: pointer;
+}
+
+#about{
+    background-color: rgba(61, 63, 63);
+}
+#result-products{
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+#result-products .card{
+    min-width: 200px !important;
+}
+
+@media (min-width: 992px) {
+    /* #menu-itens{
+        top: 56px;
+    } */
+
+    #Navbar {
+      justify-content: center;
+    }
+
+    .logo{
+        height: 90px !important;
+    }
+    #NavbarLinks .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end; 
+        width: 100%;
+    }
+
+    #NavbarLinks{
+        width: calc(100% - 343px);
+    }
+
+    #NavbarLinks .nav-link{
+        font-size: 1.1rem;
+    }
+
+    #NavbarLinks ul li:nth-child(-n+2){
+        border-right: 1px rgba(171, 206, 67) solid;
+    }
+
+    .text-initial p{
+        font-size: 3.5rem;
+    }
+
+    .go-green{
+        position: absolute;
+        top: 200px;
+        left: 56%;
+        max-width: 365px;
+    }
+
+    #reflection p:first-child{
+        font-weight: bold;
+        font-size: 1.9rem;
+    }
+
+    #reflection p:nth-child(2){
+        font-size: 1.3rem;
+    }
+
+    #reflection p:last-child{
+        font-weight: bold;
+        font-size: 1.9rem;
+    }
+
+    #consequences .container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #consequences .container .row:first-child{
+        margin-right: 3rem !important;
+        font-size: 6rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #consequences .container .row:last-child {
+        margin-left: 3rem !important;
+    }
+
+    #consequences .container .row:last-child p{
+        font-size: 2rem;
+    }
+
+    #consequences .container .row:last-child span{
+        font-size: 1.5rem;
+    }
+
+    .calculator-background{
+        display: block;
+        height: 355px;
+        background-image: url("/assets/img/calculadora-go-green-01.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 400px;
+        position: relative;
+    }
+
+    .calculator-background label{
+        font-size: 1.3rem;
+    }
+
+    .calculator-background input{
+        width: 163px;
+    }
+
+    .calculator-background .inputs {
+        position: relative;
+        height: 120px;
+        top: 150px;
+    }
+
+    #result p:first-child{
+        font-size: 1.2rem !important;
+        font-weight: bold;
+    }
+
+    #follow span{
+        font-size: 1.4rem;
+    }
+
+    #follow input{
+        margin-left: 0.5rem !important;
+    }
+
+    #follow button{
+        width: auto !important;
+        margin-left: 0.5rem !important;
+    }
+
+    .form-inline .form-control {
+        display: inline-block;
+        width: 500px !important;
+        vertical-align: middle;
+    }
+
+    #catalogo{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #catalogo div:first-child{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        font-size: 2.3rem;
+        font-weight: bold;
+    }
+
+    #catalogo div:first-child span:last-child{
+        font-size: 3rem;
+        position: relative;
+        top: -30px;
+        margin-left: 2rem;
+    }
+
+    .img-catalogo{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .img-catalogo a img{
+        width: 169px;
+    }
+
+    .img-catalogo a:last-child img{
+        height: 187px;
+        width: 267px;
+    }
+
+    #about .container{
+        padding: 1.3rem;
+    }
+
+    #about div p:first-child{
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    #about div p:last-child{
+        font-weight: normal;
+    }
+}
+
+@media (max-width: 990px){
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+        width: 100%;
+    }
+
+    #NavbarLinks{
+        width: 100%;
+        border-bottom: 1px solid ;
+    }
+
+    #NavbarLinks ul {
+        justify-content: space-between;
+    }
+
+    .text-initial p{
+        font-size: 1.2rem;
+    }
+    .go-green{
+        position: relative;
+        left: 10%;
+        max-width: 300px;
+    }
+
+    #reflection p{
+        font-size: 1.4rem;
+    }
+    #reflection p:first-child, p:last-child{
+        font-weight: bold;
+    }
+
+    .calendars{
+        min-width: 200px;
+    }
+
+    #consequences .container .row:first-child{
+        font-size: 3.5rem;
+        margin-bottom: 10px;
+    }
+
+    #consequences .container .row:last-child p{
+
+        font-size: 2rem;
+    }
+
+    #consequences .container .row:last-child{
+        display: flex;
+        justify-content: center;
+    }
+
+    #consequences .container .row:last-child span{
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+
+    #follow span{
+        font-size: 1.2rem;
+    }
+
+    #follow button{
+        margin-top: 0.5rem !important;
+    }
+
+    #catalogo{
+        margin: 0.2rem;
+    }
+
+    #catalogo div:first-child{
+        width: 100%;
+        margin-top: 2rem;
+        font-size: 2.3rem;
+        font-weight: bold;
+    }
+    .img-catalogo{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-catalogo a img{
+        margin: 0.2rem;
+        width: 169px;
+    }
+
+    .img-catalogo a:last-child img{
+        height: 187px;
+        width: 267px;
+    }
+
+    #about .container{
+        padding: 1.3rem;
+    }
+
+    #about div p:first-child{
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    #about div p:last-child{
+        font-weight: normal;
+        font-size: 1rem;
+    }
+}
